@@ -1,0 +1,19 @@
+/* Add your styles here */
+#container > div {
+    display: flex;
+  }
+  #container .letter-box {
+    width: 20px;
+    height: 20px;
+    border: 1px solid black;
+    margin: 1px;
+    text-align: center;
+  }
+  
+  .match {
+    background-color: yellowgreen;
+  }
+  
+  .exists {
+    background-color: yellow;
+  }

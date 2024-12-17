@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Sliding Tiles</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="script.js" defer></script>
+    </head>
+    <body>
+        <h1>Code Breaker</h1>
+        <div>
+          <label>Letters per Word</label>
+          <select id="letter-count">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+          <label>Total Guesses</label>
+          <select id="total-guesses">
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+          </select>
+          <button id="restart">Restart</button>
+        </div>
+        <div id="container"></div>
+        <div id="answer"></div>
+    </body>
+</html>
