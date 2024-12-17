@@ -1,4 +1,4 @@
-import { SlidingTileGame, SlidingTileGameDrivers } from '../../../logic-grids-ts/dist/web/bundle.js';
+import { SlidingTileGame, SlidingTileGameDrivers } from 'logic-grids';
 
 const createNewGame = () => {
   new SlidingTileGame({
